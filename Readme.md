@@ -24,7 +24,7 @@ Before running this script, ensure you have the following:
 1. **Clone the repository** (or download the script file):
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/MathanKumar23/Shell-Script.git
    cd <repository-directory>
 
    ```
