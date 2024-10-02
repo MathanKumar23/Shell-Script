@@ -20,7 +20,7 @@ disk_age_in_days() {
 
 #!/bin/bash
 delete_disks() {
-    set -x
+    # set -x # This will run the script in debug mode
     # Fetch all disks and store them in a temporary file
     temp_file=$(mktemp)
     az disk list --query "[].{name:name, resourceGroup:resourceGroup, diskState:diskState, size:diskSizeGB, criticalTag:tags.critical, backupTag:tags.backup, timeCreated:timeCreated}" -o tsv >"$temp_file"
