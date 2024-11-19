@@ -51,10 +51,15 @@ During execution, the script will ask if you want to run in dry-run mode:
 ### Example Output
 
 `Do you want to run in dry-run mode? (y/n) n
+
 Checking disks...
+
 myDisk1 is attached to a VM. Skipping deletion.
+
 myDisk2 is only 20 days old. Skipping deletion.
+
 Deleting Disk myOldDisk...
+
 Are you sure you want to delete myOldDisk? (y/n) y`
 
 ## How It Works
